@@ -22,7 +22,7 @@ Answer: 'education_num' , 'age' , 'hours_per_week', 'capital_gain' ,' capital_lo
 Problem 3: Which algorithms are best for this dataset?
 Answer: Xgboost algorithm is the best algorithm which gives the best prediction for the above data.The accuracies of other algorithms are:-
 
-    Logistic regression -> 81.46249544545523 %
-    Decision tree classifier -> 81.186075125283 %
-    Random Forest classifier -> 83.67068019815947 %
-    Xgboost -> 84.12212705350562 %
+    Logistic regression -> 80.97110721266387 %
+    Decision tree classifier -> 80.29851221975876 %
+    Random Forest classifier -> 80.77454230125399 %
+    Xgboost -> 82.71246527041738 %
