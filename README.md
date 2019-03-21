@@ -17,11 +17,10 @@ Extraction was done by Barry Becker from the 1994 Census database. A set of reas
     Controls by Race, age and sex. We use all three sets of controls in our weighting program and "rake" through them 6 times so that by the end we come back to all the controls we used. The term estimate refers to population totals derived from CPS by creating "weighted tallies" of any specified socio-economic characteristics of the population. People with similar demographic characteristics should have similar weights. There is one important caveat to remember about this statement. That is that since the CPS sample is actually a collection of 51 state samples, each with its own probability of selection, the statement only applies within state.
 
 Problem 2: Which factors are important ?
-Answer: From plotting the graph it is clear that - 'education_num' , 'age' , 'hours_per_week', 'capital_gain' ,' capital_loss' and 'race' are effecting to the wage_class(income) of the person .Other features don't have correlation with income of the person , So we will use only these features for our machine learning model.
+Answer: 'education_num' , 'age' , 'hours_per_week', 'capital_gain' ,' capital_loss' and 'race' are effecting to the wage_class(income) of the person .So we will use only these features for our machine learning model.
 
 Problem 3: Which algorithms are best for this dataset?
-Answer: Xgboost algorithm is the best algorithm which gives the best prediction for the above data.
-I have used the following algorithms for the classification and their accuracies are:-
+Answer: Xgboost algorithm is the best algorithm which gives the best prediction for the above data.The accuracies of other algorithms are:-
 
     Logistic regression -> 81.46249544545523 %
     Decision tree classifier -> 81.186075125283 %
